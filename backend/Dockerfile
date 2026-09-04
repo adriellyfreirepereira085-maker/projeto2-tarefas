@@ -6,7 +6,7 @@ COPY . .
 
 RUN gradle clean bootJar --no-daemon
 
-FROM eclipse-temurin:20-jre
+FROM eclipse-temurin:21-jre
 
 WORKDIR /app
 
